@@ -1,5 +1,5 @@
 {
-  "name": "astronomer-logger",
+  "name": "@astronomerio/astronomer-logger",
   "version": "1.0.0",
   "description": "Standard logger used throughout Astronomer apps.",
   "main": "dist/index.js",
