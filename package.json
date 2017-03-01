@@ -7,6 +7,7 @@
     "build": "babel lib -d dist",
     "lint": "eslint lib",
     "deploy": "npm run build && npm run test && npm publish",
+    "prepublish": "npm run lint && npm run build",
     "test": "mocha test/index.test.js"
   },
   "author": "Alois <alois@astronomer.io>",
