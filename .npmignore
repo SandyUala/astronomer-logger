@@ -1,0 +1,7 @@
+lib/
+node_modules/
+.git/
+.babelrc
+.eslintrc
+.gitignore
+README.md
