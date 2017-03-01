@@ -4,12 +4,22 @@
   "description": "Standard logger used throughout Astronomer apps.",
   "main": "dist/index.js",
   "scripts": {
+    "lint": "eslint lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alois <alois@astronomer.io>",
   "license": "MIT",
   "dependencies": {
     "bunyan": "^1.8.5",
-    "streamroller": "^0.4.0"
+    "streamroller": "^0.4.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-babel": "^4.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0"
   }
 }
