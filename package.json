@@ -1,0 +1,15 @@
+{
+  "name": "astronomer-logger",
+  "version": "1.0.0",
+  "description": "Standard logger used throughout Astronomer apps.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alois <alois@astronomer.io>",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "streamroller": "^0.4.0"
+  }
+}
