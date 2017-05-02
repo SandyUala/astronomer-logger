@@ -7,5 +7,5 @@
 
 | Name      | Purpose                                         |
 |-----------|-------------------------------------------------|
-| `BUNYAN_LOG_PATH`   | Sets the file path where logs will be written. |
+| `ASTRONOMER_LOG_PATH`   | Sets the file path where logs will be written. |
 | `BUNYAN_APP_NAME`| Value used for the bunyan app name. |
